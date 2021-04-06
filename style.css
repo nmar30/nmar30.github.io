@@ -1,0 +1,108 @@
+/* Structure */
+body {
+    margin: 0px;
+}
+
+#header {
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    background-image: url("images/header-background.png") ;
+    background-color: blue;
+}
+
+#subcontainer {
+    width: 55%;
+    margin: auto;
+}
+
+#about {
+    width: 300px;
+    height: auto;
+    float: left;
+    background-color:white;
+}
+
+#projects {
+ width: 723px;
+ height: auto;
+ float: right;
+ background-color: whitesmoke;
+}
+#contact {
+    text-align: center;
+}
+
+/* Styling */
+
+.sitelogo {
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 5px;
+    color: white;
+}
+
+.headshot {
+    display: block;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about h2 {
+    text-align: center;
+    color: rgb(31, 61, 143);
+}
+
+#about p {
+    margin: 10px;
+    font-size: 18px;
+}
+
+.projectinfo {
+    width: auto;
+    height: auto;
+    min-height: 170px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(169, 202, 233);
+}
+.projectinfo h1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: rgb(46, 81, 156)
+
+}
+
+.projectinfo p {
+    font-size: 20px;
+}
+
+.projectinfo img {
+    margin: 10px;
+    float: left;
+}
+.projectlink {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(21, 107, 146);
+}
+
+a:link { text-decoration: none;}
+
+
+a:visited { text-decoration: none; color: currentColor;}
+
+
+a:hover { text-decoration: none; color: rgb(25, 49, 129);}
+
+
+a:active { text-decoration: none;}
