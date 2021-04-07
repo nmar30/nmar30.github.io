@@ -59,8 +59,9 @@ body {
     font-family:sans-serif;
 }
 
-#projects h1 {
+#projects > h1 {
     color: rgb(31, 61, 143);
+    text-align: center;
 }
 
 .projectinfo {
@@ -126,15 +127,13 @@ a:active { text-decoration: none;}
         width: 100%;
         height: auto;
     }
-}
-/* No longer neccessary
     .sitelogo {
-        font-size: 5vw;
+        font-size: 7vw;
         letter-spacing: 1vw;
     }
 
     #projects h1 {
-        font-size: 5vw;
+        font-size: 7vw;
     }
     #about p {
         font-size: 5vw;
@@ -147,9 +146,11 @@ a:active { text-decoration: none;}
     .projectinfo p {
         font-size: 4vw;
     }
+    .projectinfo img {
+        max-width: 35%;
+    }
 
     .projectlink {
         font-size: 5vw;
     }
 }
-*/
