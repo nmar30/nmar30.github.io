@@ -57,6 +57,7 @@ body {
 #about p {
     margin: 10px;
     font-size: 18px;
+    font-family:sans-serif;
 }
 
 .projectinfo {
@@ -79,7 +80,8 @@ body {
 }
 
 .projectinfo p {
-    font-size: 20px;
+    font-size: 14pt;
+    font-family:sans-serif;
 }
 
 .projectinfo img {
@@ -99,7 +101,7 @@ a:link { text-decoration: none;}
 a:visited { text-decoration: none; color: currentColor;}
 
 
-a:hover { text-decoration: none; color: rgb(25, 49, 129);}
+a:hover { text-decoration: none;}
 
 
 a:active { text-decoration: none;}
