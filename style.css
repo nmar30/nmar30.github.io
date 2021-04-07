@@ -1,4 +1,4 @@
-/* Structure */
+/* Desktop Structure and Formatting */
 body {
     margin: 0px;
 }
@@ -27,18 +27,15 @@ body {
  width: 723px;
  height: auto;
  float: right;
- background-color: whitesmoke;
 }
 #contact {
     text-align: center;
 }
 
-/* Styling */
-
 .sitelogo {
     vertical-align: middle;
     display: inline-block;
-    font-size: 35px;
+    font-size: 24pt;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 5px;
@@ -106,3 +103,37 @@ a:hover { text-decoration: none; color: rgb(25, 49, 129);}
 
 
 a:active { text-decoration: none;}
+
+/* mobile structure and Formatting*/
+@media screen and (max-width:1024px) {  
+    #subcontainer {
+        width: fit-content;
+    }
+    
+    #about {
+        width: 100%;
+        height: auto;
+        background-color:white;
+    }
+    
+    #projects {
+        width: 100%;
+        height: auto;
+    }
+    .sitelogo {
+        font-size: 5vw;
+        letter-spacing: 1vw;
+    }
+
+    #about p {
+        font-size: 5vw;
+    }
+
+    .projectinfo p {
+        font-size: 5vw;
+    }
+
+    .projectlink {
+        font-size: 5vw;
+    }
+}
