@@ -48,7 +48,7 @@ body {
     margin-right: auto;
 }
 
-#about h2 {
+#about h1 {
     text-align: center;
     color: rgb(31, 61, 143);
 }
@@ -128,29 +128,28 @@ a:active { text-decoration: none;}
         height: auto;
     }
     .sitelogo {
-        font-size: 7vw;
-        letter-spacing: 1vw;
+        font-size: 9vw;
+        letter-spacing: .5vw;
     }
-
-    #projects h1 {
-        font-size: 7vw;
+    #about > h1 {
+        font-size: 8vw;
     }
-    #about p {
+    #about > p {
         font-size: 5vw;
     }
-
-    .projectinfo h1 {
-        font-size: 10vw;
+    #projects > h1 {
+        font-size: 8vw;
     }
-
-    .projectinfo p {
-        font-size: 4vw;
+    .projectinfo > h1 {
+        font-size: 7vw;
     }
-    .projectinfo img {
+    .projectinfo > p {
+        font-size: 5vw;
+    }
+    .projectinfo > img {
         max-width: 35%;
     }
-
     .projectlink {
-        font-size: 5vw;
+        font-size: 6vw;
     }
 }
