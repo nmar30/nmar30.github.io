@@ -83,6 +83,13 @@ body {
     color: rgb(46, 81, 156)
 
 }
+.projectinfo h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 14pt;
+    color: rgb(46, 85, 156)
+
+}
 
 .projectinfo p {
     font-size: 12pt;
@@ -95,12 +102,12 @@ body {
 }
 .projectlink {
     display: inline-block;
-    font-size: 16pt;
+    font-size: 14pt;
     font-weight: bold;
-    color: rgb(21, 107, 146);
+    color: rgb(21, 79, 146);
 }
 
-a:link { text-decoration: none;}
+a:link { text-decoration: none; color: currentColor;}
 
 
 a:visited { text-decoration: none; color: currentColor;}
